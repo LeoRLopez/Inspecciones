@@ -1,0 +1,36 @@
+<form formGroupName="inspectionFormGroup">
+    <div class="3" >
+        <label for="inspectionTypeId" class="form-label">Tipo de Inspeccion</label>
+        <select class="form-control" DropdownModule name="inspectionTypeId" id="inspectionTypeId" [(ngModel)]="inspectionTypeId"
+            *ngIf="inspection.id != 0" disabled>
+            <option *ngFor="let type of inspectionTypeList$ | async" [value]="type.id">
+                {{ inspectionTypesMap.get(type.id) }}
+            </option>
+        </select>
+        <select class="form-control" DropdownModule name="inspectionTypeId" id="inspectionTypeId" [(ngModel)]="inspectionTypeId"
+        *ngIf="inspection.id == 0" formControlName="tipoInspeccion">
+        <option *ngFor="let type of inspectionTypeList$ | async" [value]="type.id">
+            {{ inspectionTypesMap.get(type.id) }}
+        </option>
+    </select>
+    </div>
+    <div class="mb3">
+        <label for="statusId" class="form-label">Estado</label>
+        <select class="form-control" DropdownModule name="statusId" id="statusId" [(ngModel)]="statusId" formControlName="estado">
+            <option *ngFor="let estado of estadosList$ | async" [value]="estado.id">
+                {{ estado.estadoNombre }}
+            </option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label for="description" class="form-label">Descripcion</label>
+        <input type="text" pInputText class="form-control" [(ngModel)]="description" name="description" formControlName="descripcion"/>
+    </div>
+
+    <button (click)="addInspection()" *ngIf="inspection.id == 0" class="btn btn-primary float-end">
+        Agregar
+    </button>
+    <button (click)="editInspection()" *ngIf="inspection.id != 0" class="btn btn-primary float-end">
+        Actualizar
+    </button>
+</form>
