@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gegcgWr++cTr8bY2x8ufvhiyJ1CRb+3RLcs96NMxRBwMFyDpDyezs3VHVy718WQ+qapHTZZTEmFBr3xDbFnolQ==",
+  "dgSpecHash": "53fDtLmsQRt6Ye5nMaNFkHABGW0kJTvjT+tmPEaZeL0iB0p2FhWfsKOrX8Hwb6s1NyXHwprj17VdUKlONu2kfg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\leona\\source\\repos\\PlayaEstacionamientoApp\\Backend\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\leona\\Documents\\repos\\Inspecciones\\Backend\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leona\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\leona\\.nuget\\packages\\fluentvalidation\\11.6.0\\fluentvalidation.11.6.0.nupkg.sha512",

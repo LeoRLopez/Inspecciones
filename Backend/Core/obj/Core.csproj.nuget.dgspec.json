@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leona\\source\\repos\\PlayaEstacionamientoApp\\Backend\\Core\\Core.csproj": {}
+    "C:\\Users\\leona\\Documents\\repos\\Inspecciones\\Backend\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leona\\source\\repos\\PlayaEstacionamientoApp\\Backend\\Core\\Core.csproj": {
+    "C:\\Users\\leona\\Documents\\repos\\Inspecciones\\Backend\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leona\\source\\repos\\PlayaEstacionamientoApp\\Backend\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\leona\\Documents\\repos\\Inspecciones\\Backend\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\leona\\source\\repos\\PlayaEstacionamientoApp\\Backend\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\leona\\Documents\\repos\\Inspecciones\\Backend\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leona\\source\\repos\\PlayaEstacionamientoApp\\Backend\\Core\\obj\\",
+        "outputPath": "C:\\Users\\leona\\Documents\\repos\\Inspecciones\\Backend\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",

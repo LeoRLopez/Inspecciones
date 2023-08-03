@@ -1078,11 +1078,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leona\\source\\repos\\PlayaEstacionamientoApp\\Backend\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\leona\\Documents\\repos\\Inspecciones\\Backend\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\leona\\source\\repos\\PlayaEstacionamientoApp\\Backend\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\leona\\Documents\\repos\\Inspecciones\\Backend\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leona\\source\\repos\\PlayaEstacionamientoApp\\Backend\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\leona\\Documents\\repos\\Inspecciones\\Backend\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1099,8 +1099,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\leona\\source\\repos\\PlayaEstacionamientoApp\\Backend\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\leona\\source\\repos\\PlayaEstacionamientoApp\\Backend\\Core\\Core.csproj"
+            "C:\\Users\\leona\\Documents\\repos\\Inspecciones\\Backend\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\leona\\Documents\\repos\\Inspecciones\\Backend\\Core\\Core.csproj"
             }
           }
         }
