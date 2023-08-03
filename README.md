@@ -1,2 +1,2 @@
-# Inspecciones
-Es un proyecto de prueba con fines demostrativos y de prueba.
+# InspeccionesApp
+Es un proyecto de prueba técnica desarrollado solo con intenciones didácticas y demostrativas.

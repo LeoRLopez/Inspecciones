@@ -1,0 +1,7 @@
+C:\Users\leona\source\repos\PlayaEstacionamientoApp\PlayaEstacionamientoApp\obj\Debug\net6.0\PlayaEstacionamientoAPI.csproj.AssemblyReference.cache
+C:\Users\leona\source\repos\PlayaEstacionamientoApp\PlayaEstacionamientoApp\obj\Debug\net6.0\PlayaEstacionamientoAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leona\source\repos\PlayaEstacionamientoApp\PlayaEstacionamientoApp\obj\Debug\net6.0\PlayaEstacionamientoAPI.AssemblyInfoInputs.cache
+C:\Users\leona\source\repos\PlayaEstacionamientoApp\PlayaEstacionamientoApp\obj\Debug\net6.0\PlayaEstacionamientoAPI.AssemblyInfo.cs
+C:\Users\leona\source\repos\PlayaEstacionamientoApp\PlayaEstacionamientoApp\obj\Debug\net6.0\PlayaEstacionamientoAPI.csproj.CoreCompileInputs.cache
+C:\Users\leona\source\repos\PlayaEstacionamientoApp\PlayaEstacionamientoApp\obj\Debug\net6.0\PlayaEstacionamientoAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\leona\source\repos\PlayaEstacionamientoApp\PlayaEstacionamientoApp\obj\Debug\net6.0\PlayaEstacionamientoAPI.MvcApplicationPartsAssemblyInfo.cache
