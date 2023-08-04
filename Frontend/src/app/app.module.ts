@@ -13,6 +13,7 @@ import { InspectionApiService } from './shared/services/inspection-api.service';
 import { MessagesModule } from 'primeng/messages';
 import { ButtonModule } from 'primeng/button';
 import { TableModule } from 'primeng/table';
+import { inspectionReducer } from './reducer';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,7 @@ import { TableModule } from 'primeng/table';
     InputTextModule,
     MessagesModule,
     ReactiveFormsModule,
-    StoreModule.forRoot({}, {})
+    StoreModule.forRoot({inspecciones: inspectionReducer})
   ],
   providers: [InspectionApiService],
   bootstrap: [AppComponent]

@@ -2,6 +2,9 @@ import { Component, Input, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { InspectionApiService } from 'src/app/shared/services/inspection-api.service';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { Store } from '@ngrx/store';
+
+interface AppState {inspecciones: any}
 
 @Component({
   selector: 'app-alta-edicion-inspeccion',
@@ -21,7 +24,9 @@ export class AltaEdicionInspeccionComponent implements OnInit{
     descripcion: new FormControl('',[Validators.required])
   })
 
-  constructor(private service: InspectionApiService){}
+  constructor(private service: InspectionApiService, private store: Store<AppState>){
+    this.store.subscribe(state => {console.log(state)});
+  }
 
   @Input() inspection:any;
   id: number = 0 ;
